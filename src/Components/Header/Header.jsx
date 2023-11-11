@@ -21,7 +21,7 @@ function Header() {
             <Image src="./img/Logo.png" alt="Logo" h="80%" />
             <Box>
                 <Link color="white" borderRadius="5px" p="5px" m="5px" href="/" _hover={{ bg: "lightblue" }}>Inicio</Link>
-                <Link color="white" borderRadius="5px" p="5px" m="5px" href="https://github.com/agros55/myapp-Ejercicio3.git" target="_blank" _hover={{ bg: "lightblue" }}>Repositorio</Link>
+                <Link color="white" borderRadius="5px" p="5px" m="5px" href="https://github.com/agros55/miApp-Ejercicio3.git" target="_blank" _hover={{ bg: "lightblue" }}>Repositorio</Link>
             </Box>
         </Center>
 
