@@ -18,6 +18,20 @@ La aplicación cuenta con un Header donde se encuentra un logo y el menú de nav
 
 ***
 
+## DEMO
+
+### Pantalla de Inicio
+<image src="./00Inicio.jpg" alt="Pantalla de inicio">
+
+### Pantalla de Inicio
+<image src="./01Info.jpg" alt="Pantalla detalle del producto">
+
+### Pantalla de Inicio
+<image src="./03Inicio-Respon.jpg" alt="Pantalla de inicio - Responsive">
+
+### Pantalla de Inicio
+<image src="./04Info-Respon.jpg" alt="Pantalla detalle del producto - Responsive">
+
 
 ## TECNOLOGIAS UTILIZADAS
 

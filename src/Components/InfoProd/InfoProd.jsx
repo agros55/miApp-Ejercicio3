@@ -15,16 +15,16 @@ const InfoProd = () => {
     let { id } = useParams();;
     let Product = Products.find(prod => prod.Id == id);
     return (
-        <Center mt={5} flexWrap={{ base: "wrap", lg: "nowrap" }}>
+        <Center mt={5} minH="80vh" flexWrap={{ base: "wrap", lg: "nowrap" }}>
             <Image src={Product.Imagen} alt={Product.Nombre} p="0 20px" minW={{ base: "90vw", lg: "40vw" }} />
             <Box p={10} w={{ base: "90%", lg: "50%" }}>
-                <Heading>{Product.Nombre}</Heading>
-                <Heading>{Product.Precio}</Heading>
-                <Text mt={5}>{Product.Descripcion}</Text>
-                <Heading fontSize={14} mt={5}>Cantidad disponible: </Heading>
-                <Text>{Product.Stock}</Text>
-                <Heading fontSize={14} mt={5}>SKU: </Heading>
-                <Text>{Product.SKU}</Text>
+                <Heading fontSize={{ md: "6xl" }}>{Product.Nombre}</Heading>
+                <Heading fontSize={{ md: "6xl" }}>{Product.Precio}</Heading>
+                <Text fontSize={{ md: "2xl" }} mt={5}>{Product.Descripcion}</Text>
+                <Heading mt={5}>Cantidad disponible: </Heading>
+                <Text fontSize={{ md: "2xl" }}>{Product.Stock}</Text>
+                <Heading mt={5}>SKU: </Heading>
+                <Text fontSize={{ md: "2xl" }}>{Product.SKU}</Text>
             </Box>
         </Center>
     );
