@@ -4,7 +4,7 @@ Este proyecto corresponde al Ejercicio 3 del Curso "DESARROLLADOR WEB CON REACT 
 
 ### LINK DEPLOY
 
-https://agros55.github.io/miApp-Ejercicio3/
+https://fernandoviveros.net/
 ***
 
 ## DESCRIPCION
