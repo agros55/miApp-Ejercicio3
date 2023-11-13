@@ -22,8 +22,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Main />} />
-          <Route path="/" element={<Main />} />
-          <Route path="/producto/:id" element={<InfoProd />} />
+          <Route path="/miApp-Ejercicio3/" element={<Main />} />
+          <Route path="/miApp-Ejercicio3/producto/:id" element={<InfoProd />} />
           <Route render={() => <h1>Not found!</h1>} />
         </Routes>
       </BrowserRouter>
