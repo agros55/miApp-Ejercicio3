@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import { ChakraProvider as Chakra, chakra, isChakraTheme } from '@chakra-ui/react'
+import { ChakraProvider as Chakra } from '@chakra-ui/react'
 
 // ---------- IMPORTACION DE COMPONENTES ----------
 // Estructura

@@ -14,9 +14,9 @@ import { Card, CardHeader, CardBody } from '@chakra-ui/react'
 const Producto = ({ Id, Imagen, Nombre, Precio }) => {
     const navigate = useNavigate();
     return (
-        <Card minW="200px" maxW="300px" p="5px" m={2}>
-            <CardHeader>
-                <Image src={Imagen} alt={Nombre} w="90%" />
+        <Card minW="30%" maxW="300px" p="5px" m={2}>
+            <CardHeader display="flex" justifyContent="center">
+                <Image src={Imagen} alt={Nombre} minH="25vh" w="90%" />
             </CardHeader>
             <CardBody display="flex" flexWrap="wrap" justifyContent="space-between">
                 <Box>
