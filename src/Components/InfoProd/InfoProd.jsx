@@ -15,7 +15,7 @@ const InfoProd = () => {
     let { id } = useParams();;
     let Product = Products.find(prod => prod.Id == id);
     return (
-        <Center flexWrap={{ base: "wrap", lg: "nowrap" }}>
+        <Center mt={5} flexWrap={{ base: "wrap", lg: "nowrap" }}>
             <Image src={Product.Imagen} alt={Product.Nombre} p="0 20px" minW={{ base: "90vw", lg: "40vw" }} />
             <Box p={10} w={{ base: "90%", lg: "50%" }}>
                 <Heading>{Product.Nombre}</Heading>
